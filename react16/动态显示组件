@@ -1,0 +1,9 @@
+1.    
+
+        class Foo extends React.Component { ... }
+        ...
+        const componentsMap = { Foo, Bar };
+        ...
+        const componentName = 'Fo' + 'o';
+        const DynamicComponent = componentsMap[componentName];
+        <DynamicComponent/>;
